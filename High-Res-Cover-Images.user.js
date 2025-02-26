@@ -9,6 +9,7 @@
 // @match       *://genius.com/*
 // @homepageURL https://github.com/Sv443/High-res-cover-images-on-genius.com#readme
 // @supportURL  https://github.com/Sv443/High-res-cover-images-on-genius.com/issues
+// @updateURL   https://github.com/Sv443/High-res-cover-images-on-genius.com/raw/refs/heads/main/High-Res-Cover-Images.user.js
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==
