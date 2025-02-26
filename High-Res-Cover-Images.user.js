@@ -2,7 +2,7 @@
 // @name        High-res cover images on genius.com
 // @description Changes all cover images on genius.com lyrics pages to their highest possible resolution
 // @namespace   https://github.com/Sv443
-// @version     1.0.2
+// @version     1.0.3
 // @author      Sv443
 // @copyright   Sv443 (https://github.com/Sv443)
 // @license     MIT
@@ -34,7 +34,7 @@ function run(startTs = Date.now()) {
       }
     }
     if(replacedAmt > 0)
-      console.info(`Replaced ${replacedAmt.length} low-res ${replacedAmt.length === 1 ? "image with a high-res one" : "images with high-res ones"}.\n\n${GM.info.script.name} v${GM.info.script.version}\n${GM.info.script.homepageURL}`);
+      console.info(`Replaced ${replacedAmt} low-res ${replacedAmt === 1 ? "image with a high-res one" : "images with high-res ones"}.\n\n${GM.info.script.name} v${GM.info.script.version}\n${GM.info.script.homepageURL}`);
     else
       warn("Found no suitable images to replace.");
   }
