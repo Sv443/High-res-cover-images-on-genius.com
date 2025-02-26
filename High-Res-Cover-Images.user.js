@@ -27,7 +27,7 @@ function run(startTs = Date.now()) {
     let replacedAmt = 0;
     for(const img of imgs) {
       const matches = "src" in img ? img.src.match(imgSrcRegex) : null;
-      if(matches && matches.length === 5) {
+      if(matches && matches.length === 3) {
         const [src, maxW, maxH] = matches;
         img.src = src.replace(/\/unsafe\/\d+x\d+\//, `/unsafe/${maxW}x${maxH}/`);
         replacedAmt++;
