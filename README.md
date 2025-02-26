@@ -11,7 +11,7 @@ Also available on [greasyfork](https://greasyfork.org/en/scripts/528145-high-res
 
 ### Installation:
 1. Install a userscript browser extension like Violentmonkey ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/), [Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag), [Edge](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao?hl=en-GB&gl=DE))
-2. [Click here to install the userscript](https://github.com/Sv443/High-res-cover-images-on-genius.com/raw/refs/heads/main/High-Res-Cover-Images.user.js)
+2. [Click here to install the userscript](https://raw.githubusercontent.com/Sv443/High-res-cover-images-on-genius.com/main/High-Res-Cover-Images.user.js)
 
 <br><br>
 
