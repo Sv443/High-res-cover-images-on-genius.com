@@ -39,4 +39,4 @@ function run(startTs = Date.now()) {
     console.warn(`Couldn't find any images to replace after ${timeoutSec} seconds.\n\nIf you are not on a lyrics page, you can ignore this warning.\nIf this issue keeps happening on lyrics pages, please submit a bug report here: ${GM.info.script.supportURL}`);
 }
 
-document.addEventListener("DOMContentLoaded", run);
+document.addEventListener("DOMContentLoaded", () => run());
