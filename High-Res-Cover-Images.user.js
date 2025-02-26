@@ -2,7 +2,7 @@
 // @name        High-res cover images on genius.com
 // @description Changes all cover images on genius.com lyrics pages to their highest possible resolution
 // @namespace   https://github.com/Sv443
-// @version     1.0.0
+// @version     1.0.1
 // @author      Sv443
 // @copyright   Sv443 (https://github.com/Sv443)
 // @license     MIT
